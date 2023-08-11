@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   /* background-color: #ded9f5; */
-  background-image: url(../images/balon\ udara.png);
+  background-image: url(balon\ udara.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
