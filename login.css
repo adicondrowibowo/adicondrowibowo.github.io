@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Borel&family");
+
+* {
+  /* font-family: "Poppins"; */
+  font-family: "Borel", cursive;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #ded9f5; */
+  background-image: url(../images/balon\ udara.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .form-login {
+  background-color: white;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body .form-login input {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+}
+
+body .form-login h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+body .form-login p {
+  text-align: right;
+  margin-top: -8px;
+  margin-bottom: 35px;
+}
+
+/* colom username dan password */
+body .form-login input {
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  padding-left: 22px;
+  background-color: rgb(230, 230, 251);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* tulisan lupa password */
+body .form-login p .link-lupa-password {
+  text-decoration: none;
+  color: #999aa4;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+body .form-login p .link-lupa-password :hover {
+  text-decoration: none;
+  color: #999aa4;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* tulisan login bawah */
+body .form-login .btn-login {
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(48, 48, 233);
+  color: white;
+  font-weight: 700px;
+  cursor: pointer;
+}
+
+body .form-login button:hover {
+  background-color: rgb(152, 170, 245);
+  color: white;
+}
+
+/* tulisan signup */
+body .form-login a .btn-register {
+  margin-top: 18px;
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(174, 174, 233);
+  color: black;
+  font-weight: 700px;
+  cursor: pointer;
+}
+
+body .form-login a .btn-register:hover {
+  background-color: rgb(87, 84, 84);
+  color: rgb(248, 245, 245);
+}
+
+/* hr antara signup dan login */
+body .form-login hr {
+  background-color: #e1e5f1;
+  height: 1px;
+  border: none;
+}
+
+/* tulisan login/signup */
+body .form-login a .btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  transition: all;
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(8, 8, 8);
+  color: rgb(249, 244, 244);
+  font-weight: 700px;
+  cursor: pointer;
+}
+
+/* gambar google */
+body .form-login a .btn-google img {
+  width: 22px;
+  margin: 5px 5px 2px 0;
+}
+
+body .form-login a .btn-google:hover {
+  background-color: #999aa4;
+  color: black;
+}
+/* hr nya login/signup */
+.tu {
+  text-decoration: none;
+}
